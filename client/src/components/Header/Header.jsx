@@ -33,7 +33,7 @@ const Header = React.memo(
       <div className={styles.wrapper}>
         {!project && (
           <Link to={Paths.ROOT} className={classNames(styles.logo, styles.title)}>
-            Planka
+            TeamHandler
           </Link>
         )}
         <Menu inverted size="large" className={styles.menu}>
